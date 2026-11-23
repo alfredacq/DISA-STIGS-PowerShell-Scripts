@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures the Windows Application event log is at least 32768 KB (32 MB).
+    This PowerShell script automates the configuration of BitLocker security settings by creating the required Windows registry key and setting the appropriate DWORD values for Advanced Startup, TPM PIN, and TPM Key+PIN authentication. The security advantage is that it strengthens BitLocker protection by requiring additional authentication during system startup, making it harder for unauthorized users to access encrypted data, even if they have physical access to the device..
 
 .NOTES
     Author          : Alfred Acquah
