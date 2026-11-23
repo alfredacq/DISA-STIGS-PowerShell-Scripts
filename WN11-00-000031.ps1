@@ -1,7 +1,7 @@
 <#
 .SYNOPSIS
-    Automates BitLocker registry configurations to enforce TPM-based startup authentication
-    and strengthen protection against unauthorized access to encrypted data.
+    This PowerShell script automates BitLocker registry configurations to enforce TPM-based startup 
+    authentication and strengthen protection against unauthorized access to encrypted data.
 
 .NOTES
     Author          : Alfred Acquah
