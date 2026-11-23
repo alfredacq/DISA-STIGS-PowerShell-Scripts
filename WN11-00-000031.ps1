@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-    This PowerShell script automates the configuration of BitLocker security settings by creating the required Windows registry key and setting the appropriate DWORD values for Advanced Startup, TPM PIN, and TPM Key+PIN authentication. The security advantage is that it strengthens BitLocker protection by requiring additional authentication during system startup, making it harder for unauthorized users to access encrypted data, even if they have physical access to the device..
+    Automates BitLocker registry configurations to enforce TPM-based startup authentication
+    and strengthen protection against unauthorized access to encrypted data.
 
 .NOTES
     Author          : Alfred Acquah
