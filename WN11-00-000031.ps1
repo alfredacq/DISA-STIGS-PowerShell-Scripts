@@ -8,7 +8,7 @@
     LinkedIn        : linkedin.com/in/alfredacquah
     GitHub          : github.com/alfredacq
     Date Created    : 2026-11-23
-    Last Modified   : 2026-11-23
+    Last Modified   : 2026-11-25
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
@@ -54,5 +54,3 @@ foreach ($Setting in $Settings.GetEnumerator()) {
 # Verify configuration
 Get-ItemProperty -Path $RegistryPath |
     Select-Object UseAdvancedStartup, UseTPMPIN, UseTPMKeyPIN
-
-Write-Host "BitLocker registry settings configured successfully." -ForegroundColor Green
